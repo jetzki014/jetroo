@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 55px;
+        left: 0;
+        width: 100%;
+    }
+
+    .menu li {
+        margin: 0;
+        text-align: center;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    #nav-toggle:checked + .menu {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+    }
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background: #2c3e50;
+    top:80px;
+    left: 0;
+    text-align: center;
+}
+nav ul li {
+    display: block;
+}
+nav ul li a {
+    font-size:20px ;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-toggle">
+        <label for="nav-toggle" class="burger-menu">&#9776;</label>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

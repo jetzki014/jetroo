@@ -1,0 +1,198 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+   background-size:cover;
+}
+li{
+    list-style: none;
+    float: left;
+    padding: 15px;
+    position: sticky;
+}
+.home {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home::before {
+    margin-left: auto;
+  }
+  
+  .home::after, .home::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0c36f3;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  .home:hover::after, .home:hover::before {
+    width: 100%;
+  }
+  .one{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .two{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .three{
+    height: 200px;
+    width: 390px;
+    float: left;  
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .four{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .five{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .six{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .seven{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eight{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nine{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ten{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .elev{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .twelve{
+    height: 200px;
+    width: 390px;
+    float: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
+    transform: scale(0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .navi{
+  width: 100%;
+  height: 130px;
+  padding-top: 5px;
+  color: black;
+  }
+  .hey {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff5252;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 0px #000;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: grid;
+  }
+  
+  .hey:hover {
+    background-color: #fff;
+    color: #ff5252;
+    border: 2px solid #ff5252;
+    box-shadow: 5px 5px 0px #ff5252;
+  }
+  
+  .hey:active {
+    background-color: #fcf414;
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+  .all{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
